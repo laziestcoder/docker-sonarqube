@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+
+  sonarqube:
+    build:
+      context: .
+    container_name: sonarqube
+    ports:
+      - 9000:9000
